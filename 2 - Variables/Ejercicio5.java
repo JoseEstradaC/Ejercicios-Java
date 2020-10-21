@@ -1,10 +1,10 @@
 public class Ejercicio5 {
   public static void main(String[] args) {
     double pesetas = 500;
-    double equivalenciaPesetaEuros = 0.0060;
+    double equivalenciaPesetaEuros = 166.386;
     double euros;
 
-    euros = pesetas * equivalenciaPesetaEuros;
+    euros = pesetas / equivalenciaPesetaEuros;
     
     System.out.printf("%.2f pesetas son %.2f€", pesetas, euros);
   }

@@ -5,7 +5,7 @@ public class Ejercicio1 {
 
     System.out.println(x + y);
     System.out.println(x - y);
-    System.out.println(x / y);
+    System.out.println((double) x / (double) y);
     System.out.println(x * y);
   }
 }
