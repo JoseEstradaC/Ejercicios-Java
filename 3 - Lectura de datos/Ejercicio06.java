@@ -1,4 +1,4 @@
-public class Ejercicio6 {
+public class Ejercicio06 {
   public static void main(String[] args) {
     System.out.print("Introduzca la base: ");
     double base = Double.parseDouble(System.console().readLine());

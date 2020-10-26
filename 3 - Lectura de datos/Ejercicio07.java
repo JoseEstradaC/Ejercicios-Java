@@ -1,4 +1,4 @@
-public class Ejercicio7 {
+public class Ejercicio07 {
   public static void main(String[] args) {
     System.out.print("Introduzca la base imponible: ");
     double baseImponible = Double.parseDouble(System.console().readLine());

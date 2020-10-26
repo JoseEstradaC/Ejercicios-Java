@@ -1,4 +1,4 @@
-public class Ejercicio4 {
+public class Ejercicio04 {
   public static void main(String[] args) {
     float euros = 500;
     double equivalenciaEurosPeseta = 166.386;

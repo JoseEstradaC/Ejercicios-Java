@@ -1,4 +1,4 @@
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     double pesetas = 500;
     double equivalenciaPesetaEuros = 166.386;
