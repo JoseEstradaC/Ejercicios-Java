@@ -31,6 +31,8 @@ public class Ejercicio07 {
         clave[i] = sc.nextInt();
       }
       if (Arrays.toString(clave).equals(Arrays.toString(claveCorrecta))) {
+        sc.close();
+        
         esCorrecto = true;
     
         System.out.print("\033[H\033[2J");  
