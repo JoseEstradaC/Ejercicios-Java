@@ -6,6 +6,6 @@ public class Ejercicio06 {
     do {
       System.out.println(i);
       i -= 20;
-    } while (i >= 180);
+    } while (i >= 160);
   }   
 }
