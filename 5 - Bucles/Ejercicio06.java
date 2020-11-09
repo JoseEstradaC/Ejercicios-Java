@@ -4,8 +4,8 @@ public class Ejercicio06 {
     int i = 320; 
 
     do {
-      i -= 20;
       System.out.println(i);
+      i -= 20;
     } while (i >= 180);
   }   
 }
