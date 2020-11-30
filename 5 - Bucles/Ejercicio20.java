@@ -11,13 +11,13 @@ public class Ejercicio20 {
     sc.close();
 
     int espacios = altura - 1;
-    int caracteresAPirtar = 1;
+    int caracteresAPintar = 1;
     for (int i = 0; i < altura; i++) {
       for (int j = 0; j < espacios; j++) {
         System.out.print(" ");
       }
-      for (int h = 0; h < caracteresAPirtar; h++) {
-        if (h == 0 || h == caracteresAPirtar - 1) {
+      for (int h = 0; h < caracteresAPintar; h++) {
+        if (h == 0 || h == caracteresAPintar - 1) {
           System.out.print(caracter);
         } else {
           if (i == altura - 1) {
@@ -29,7 +29,7 @@ public class Ejercicio20 {
         }
       }
       espacios--;
-      caracteresAPirtar = caracteresAPirtar + 2;
+      caracteresAPintar = caracteresAPintar + 2;
 
       System.out.println();
     }
